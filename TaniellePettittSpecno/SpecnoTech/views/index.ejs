@@ -1,0 +1,39 @@
+<html>
+
+<head>
+    <title>Reddit</title>
+    <link rel='stylesheet' type='text/css' href='/css/style.css'>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div id="header">
+
+    </div>
+
+    <!-- loop over blog posts and render them -->
+    <% posts.forEach((post) => { %>
+        <div id="content">
+            <div id="title ">
+                <%= post.title %>
+            </div>
+            <div id="creator">
+                <%= post.creator %>
+            </div>
+            <br>
+            <br>
+        </div>
+        <% }) %>
+            </div>
+
+
+            <footer>
+
+            </footer>
+
+</body>
+
+</html>

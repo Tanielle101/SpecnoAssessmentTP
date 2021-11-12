@@ -1,0 +1,69 @@
+body {
+    background-image: url("wave.svg");
+    background-size: cover;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+#content{
+    color: black;
+    border-radius: 20px;
+    width: 30%;
+    margin: auto;
+    padding: 10px;
+    margin-top: 10px; 
+    box-shadow: 14px 10px 17px 0px rgba(0,0,0,0.38);
+    -webkit-box-shadow: 14px 10px 17px 0px rgba(0,0,0,0.38);
+    -moz-box-shadow: 14px 10px 17px 0px rgba(0,0,0,0.38);
+}
+
+#title{
+    font-size: 20px;
+}
+
+#creator{
+    font-size: 10px;
+    float:right;
+    margin-top: 24px;
+    margin-right: 10px;
+
+}
+
+#header{
+    float: right;
+    height: 8%;
+    padding: 25px;
+    margin-right: 15px;
+    margin-top: 5px;
+    background-image: url("addIcon.svg");
+    background-repeat: no-repeat;
+
+}
+
+[type="text"]{
+    border-radius: 20px;
+    outline: 0;
+    border: 0.5px solid #f9470a;
+    height: 25px;
+    margin-top: 7px;
+ 
+}
+
+#submit{
+    background-color: #f9470a;
+    border-radius: 15px;
+    outline: 0;
+    border:0;
+    color:white;
+    padding:10px;
+    margin-top: 10px;
+    margin-left: 40%;
+    width: 80px;
+}
+
+footer{
+    background-image: url("wave.svg");
+}
+
+
+
